@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title id="shadowteck">Shadow Teck</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="icon.png">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.9.0/css/bulma.min.css">
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Arvo&display=swap" rel="stylesheet">
+</head>
+  <nav id="navbar" class="navbar is-transparent">
+    <div class="container">
+      <div class="navbar-brand">
+        <a class="navbar-item" href="index.html" style="font-weight:bold;">
+          <img src="img/shadowteck.png" alt="">
+        </a>
+        <span class="navbar-burger burger" data-target="navMenu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </span>
+      </div>
+      <div id="navMenu" class="navbar-menu is-transparent">
+        <div class="navbar-end">
+          <div class="navbar-item has-dropdown is-hoverable">
+            <a class="navbar-link">
+              Content
+            </a>
+            <div class="navbar-dropdown">
+              <a href="media.html" class="navbar-item is-active">
+                media
+              </a>
+              <a href="projects.html" class="navbar-item">
+                projects </a>
+            </div>
+          </div>
+          <div class="navbar-item has-dropdown is-hoverable">
+            <a class="navbar-link">
+              Shop
+            </a>
+            <div class="navbar-dropdown">
+              <a href="services.html" class="navbar-item">
+                services
+              </a>
+              <a href="products.html" class="navbar-item">
+                products </a>
+            </div>
+          </div>
+        </div>
+        <a href="about.html" class="navbar-item">About</a>
+      </div>
+    </div>
+  </nav>
+  <script type="text/javascript">
+    (function() {
+      var burger = document.querySelector('.burger');
+      var nav = document.querySelector('#' + burger.dataset.target);
+      burger.addEventListener('click', function() {
+        burger.classList.toggle('is-active');
+        nav.classList.toggle('is-active');
+      });
+    })();
+  </script>
+  <body>
+    <h2 id="heading2">media.</h2>
+  <div class="sort-radio">
+    <div class="control">
+      <label class="radio">
+          <input id="youtube"  value="youtube" type="radio" onclick="filterSelection('youtube')" name="answer">
+            <span id="youtube-option">YouTube</span>
+        </label>
+      <label class="radio">
+        <input id="podcast" value="podcast" type="radio" onclick="filterSelection('podcast')" name="answer">
+          <span id="podcast-option">Podcast</span>
+      </label>
+      <label value="blog" class="radio">
+        <input id="blog" type="radio" onclick="filterSelection('blog')" name="answer">
+          <span id="blog-option">Blog</span>
+        </label>
+        <label value="all" class="radio">
+          <input id="all" type="radio" onclick="filterSelection('all')" name="answer">
+            <span id="all-option">All</span>
+          </label>
+    </div>
+  </div>
+  <a style="color: inherit;" href="mediapage3.html">
+<div class="filterDiv podcast">
+  <div class="media1">
+    <div id="podcast" class="small-text-wrapper">
+      <img class="image2" src="img/shadowteckshow.jpg" alt="Dystopia"></img>
+      <h2 id="heading3">#1 Welcome to the 'The Shadow Teck Show'</h2>
+      <p id="description">Here's the first episode of the Shadow Teck Show were we dive deep into tech, film, busniess, and more!
+      We also feature speacial guests on the show who fill these positions in the real work force and get a sense of the real world.</p>
+        <div class="learn-more-button">
+      <a href="mediapage3.html"><button class="learn-more"><p>view.</p></button></a>
+        </div>
+    </div>
+  </a>
+    <div class="tags">
+      <span class="tag is-info">PODCAST</span>
+      <span class="date">July '29 2020</span>
+    </div>
+  </div>
+</div>
+  <a style="color: inherit;" href="mediapage1.html">
+  <div class="filterDiv youtube">
+    <div class="media1">
+      <div class="small-text-wrapper">
+        <img class="image1" src="img/css4.jpg" alt="Dystopia"></img>
+        <h2 id="heading3">CSS4: Does it really exist?</h2>
+        <p id="description">CSS4...A Chinese intercontinental ballistic missile, more commonly known as DF-5, but also as CSS-4. Whoever was naming the missile probably should had made sure that it wasn’t confused with a non-existent cascading style sheet known as CSS4. But yes you heard me right, CSS4 does not exist and if you have researched css4 at all then you would have already known this. It’s a fake hype for web developers to clickbait other developers. Anyways today I’m going to be going over what css4 is on technical terms and then I’ll move onto what it became in the web development community and what you need to know as a developer yourself.</p>
+          <div class="learn-more-button">
+        <a href="mediapage1.html"><button class="learn-more"><p>view.</p></button></a>
+          </div>
+      </div>
+      </a>
+      <div class="tags">
+        <span class="tag is-danger">YOUTUBE</span>
+        <span class="date">June '23 2020</span>
+      </div>
+    </div>
+  </div>
+    <a style="color: inherit;" href="mediapage2.html">
+  <div class="filterDiv blog">
+    <div class="media1">
+      <div id="blog" class="small-text-wrapper">
+        <img class="image3" src="img/thumbnail6.jpg" alt="Dystopia"></img>
+        <h2 id="heading3">Dystopias: A Portal to Human Imagination</h2>
+        <p id="description">Utopias consist of perfect societies. Dystopias consist of imbalanced and corrupt societies. That’s the definition of what we have for both of those opposite versions of sociatale view. But let's take a view into the type of literature they take place in.  In “The Giver” Jonas is transmitted memories by an old man which makes him see things and remember things nobody else in the world can. He can see colors, have vivid memories of things such as war and chaos, and can even learn about the past events that nobody in his entire community has access to...</p>
+          <div class="learn-more-button">
+        <a href="mediapage2.html"><button class="learn-more"><p>view.</p></button></a>
+          </div>
+      </div>
+    </a>
+      <div class="tags">
+        <span class="tag is-primary">BLOG</span>
+        <span class="date">Apr '17 2020</span>
+      </div>
+    </div>
+  </div>
+  <script>
+
+  filterSelection("all")
+  function filterSelection(c) {
+    var x, i;
+    x = document.getElementsByClassName("filterDiv");
+    if (c == "all") c = "";
+    for (i = 0; i < x.length; i++) {
+      w3RemoveClass(x[i], "show");
+      if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "show");
+    }
+  }
+
+  function w3AddClass(element, name) {
+    var i, arr1, arr2;
+    arr1 = element.className.split(" ");
+    arr2 = name.split(" ");
+    for (i = 0; i < arr2.length; i++) {
+      if (arr1.indexOf(arr2[i]) == -1) {element.className += " " + arr2[i];}
+    }
+  }
+
+  function w3RemoveClass(element, name) {
+    var i, arr1, arr2;
+    arr1 = element.className.split(" ");
+    arr2 = name.split(" ");
+    for (i = 0; i < arr2.length; i++) {
+      while (arr1.indexOf(arr2[i]) > -1) {
+        arr1.splice(arr1.indexOf(arr2[i]), 1);
+      }
+    }
+    element.className = arr1.join(" ");
+  }
+  </script>
+  </body>
+  <footer class="footer1">
+    <nav style="background-color: #b8d3ff;" class="navbar">
+        <div class="container">
+          <div class="navbar-brand">
+            <a class="navbar-item" href="index.html" style="font-weight:bold;">
+             <img src="img/shadowteck.png" alt="">
+            </a>
+            <span class="navbar-burger burger" data-target="navMenu">
+              <span></span>
+              <span></span>
+              <span></span>
+            </span>
+          </div>
+          <p>©2020 Shadow Teck</p>
+          <div id="navMenu" class="navbar-menu">
+            <div class="navbar-end">
+              <a href="media.html" class="navbar-item is-active">media.</a>
+              <a href="projects.html" class="navbar-item">projects.</a>
+              <a href="services.html" class="navbar-item">services.</a>
+              <a href="products.html" class="navbar-item">products.</a>
+              <a href="about.html" class="navbar-item">about.</a>
+              <div class="social-media">
+                  <a target="_blank" href="https://www.youtube.com/c/ShadowTeck"><img class="" style="width: 32px; height: 32px;" src="img/youtube.png" alt="YouTube"></a>
+                  <a target="_blank" href="https://www.instagram.com/shadow_teck/"><img class="" style="width: 32px; height: 32px;" src="img/instagram.png" alt="Instagram"></a>
+                  <a target="_blank" href="https://github.com/ShadowTeck"><img class="" style="width: 32px; height: 32px;" src="img/github.png" alt="Github"></a>
+                  <a target="_blank" href="https://twitter.com/Shadow_Teck"><img class="" style="width: 32px; height: 32px;" src="img/twitter.png" alt="Twitter"></a>
+                  <a target="_blank" href="https://discord.gg/jAusnkc"><img class="" style="width: 32px; height: 32px;" src="img/discord.png" alt="Discord"></a>
+                  <a target="_blank" href="https://soundcloud.com/shadow-teck"><img class="" style="width: 32px; height: 32px;" src="img/soundcloud.png" alt="Soundcloud"></a>
+                  <a target="_blank" href="https://www.reddit.com/user/Shadow_Teck"><img class="" style="width: 32px; height: 32px;" src="img/reddit.png" alt="Reddit"></a>
+                  <a target="_blank" href="https://www.facebook.com/thatonecoder/?modal=admin_todo_tour"><img class="" style="width: 32px; height: 32px;" src="img/facebook.png" alt="Facebook"></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+  </footer>
+</html>

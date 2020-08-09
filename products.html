@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <title id="shadowteck">Shadow Teck</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="icon.png">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.9.0/css/bulma.min.css">
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Arvo&display=swap" rel="stylesheet">
+</head>
+<nav id="navbar" class="navbar is-transparent">
+  <div class="container">
+    <div class="navbar-brand">
+      <a class="navbar-item" href="index.html" style="font-weight:bold;">
+        <img src="img/shadowteck.png" alt="">
+      </a>
+      <span class="navbar-burger burger" data-target="navMenu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </span>
+    </div>
+    <div id="navMenu" class="navbar-menu is-transparent">
+      <div class="navbar-end">
+        <div class="navbar-item has-dropdown is-hoverable">
+          <a class="navbar-link">
+            Content
+          </a>
+          <div class="navbar-dropdown">
+            <a href="media.html" class="navbar-item">
+              media
+            </a>
+            <a href="projects.html" class="navbar-item">
+              projects </a>
+          </div>
+        </div>
+        <div class="navbar-item has-dropdown is-hoverable">
+          <a class="navbar-link">
+            Shop
+          </a>
+          <div class="navbar-dropdown">
+            <a href="services.html" class="navbar-item">
+              services
+            </a>
+            <a href="products.html" class="navbar-item is-active">
+              products </a>
+          </div>
+        </div>
+      </div>
+      <a href="about.html" class="navbar-item">About</a>
+    </div>
+  </div>
+</nav>
+<script type="text/javascript">
+  (function() {
+    var burger = document.querySelector('.burger');
+    var nav = document.querySelector('#' + burger.dataset.target);
+    burger.addEventListener('click', function() {
+      burger.classList.toggle('is-active');
+      nav.classList.toggle('is-active');
+    });
+  })();
+</script>
+<body>
+  <h2 id="heading2">shop.</h2>
+  <p style="text-align: center;" id="paragraph">Shop new collections and products now in the <a href="#">'Shadow Teck'</a> Store!</p>
+  <div class="shop">
+    <div class="shop-item">
+      <a href="product1.html">
+      <img src="img/basictee.png" alt="Shadow Teck T-Shirt">
+      <h2 id="heading5">Shadow Teck 'Original' T-Shirt</h2>
+      <h2 id="heading6">$19.99</h2>
+      </a>
+      <div class="learn-more-button2">
+        <a href="product1.html"><button class="learn-more2"><p>View</p></button></a>
+      </div>
+    </div>
+    <div class="shop-item">
+      <a href="product2.html">
+      <img src="img/basicsweatshirt.png" alt="Shadow Teck Sweatshirt">
+      <h2 id="heading5">Shadow Teck 'Original' Sweatshirt</h2>
+      <h2 id="heading6">$29.99</h2>
+      </a>
+      <div class="learn-more-button2">
+        <a href="product2.html"><button class="learn-more2"><p>View</p></button></a>
+      </div>
+    </div>
+    <div class="shop-item">
+      <a href="product3.html">
+      <img src="img/basichoodie.png" alt="Shadow Teck Hoodie">
+      <h2 id="heading5">Shadow Teck 'Original' Hoodie</h2>
+      <h2 id="heading6">$34.99</h2>
+      </a>
+      <div class="learn-more-button2">
+        <a href="product3.html"><button class="learn-more2"><p>View</p></button></a>
+      </div>
+    </div>
+  </div>
+</body>

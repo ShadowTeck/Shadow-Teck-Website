@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title id="shadowteck">Shadow Teck</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="icon.png">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.9.0/css/bulma.min.css">
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Arvo&display=swap" rel="stylesheet">
+</head>
+<nav id="navbar" class="navbar is-transparent">
+  <div class="container">
+    <div class="navbar-brand">
+      <a class="navbar-item" href="index.html" style="font-weight:bold;">
+        <img src="img/shadowteck.png" alt="">
+      </a>
+      <span class="navbar-burger burger" data-target="navMenu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </span>
+    </div>
+    <div id="navMenu" class="navbar-menu is-transparent">
+      <div class="navbar-end">
+        <div class="navbar-item has-dropdown is-hoverable">
+          <a class="navbar-link">
+            Content
+          </a>
+          <div class="navbar-dropdown">
+            <a href="media.html" class="navbar-item">
+              media
+            </a>
+            <a href="projects.html" class="navbar-item is-active">
+              projects </a>
+          </div>
+        </div>
+        <div class="navbar-item has-dropdown is-hoverable">
+          <a class="navbar-link">
+            Shop
+          </a>
+          <div class="navbar-dropdown">
+            <a href="services.html" class="navbar-item">
+              services
+            </a>
+            <a href="products.html" class="navbar-item">
+              products </a>
+          </div>
+        </div>
+      </div>
+      <a href="about.html" class="navbar-item">About</a>
+    </div>
+  </div>
+</nav>
+<script type="text/javascript">
+  (function() {
+    var burger = document.querySelector('.burger');
+    var nav = document.querySelector('#' + burger.dataset.target);
+    burger.addEventListener('click', function() {
+      burger.classList.toggle('is-active');
+      nav.classList.toggle('is-active');
+    });
+  })();
+</script>
+
+<body>
+  <a id="other-link"><h2 id="heading2">projects.</h2></a>
+  <div id="tabs-with-content">
+  <div class="tabs is-centered">
+    <ul>
+      <li><a>Coding</a></li>
+      <li><a>Film</a></li>
+      <li><a>Other</a></li>
+      <li><a>All</a></li>
+    </ul>
+  </div>
+  <div>
+    <section class="tab-content">
+      <div class="grid">
+        <div class="grid-square">
+          <div class="filterDiv coding">
+            <div class="square">
+              <div id="project-text2" class="small-text-wrapper">
+              <img src="img/laptop3.png" alt="">
+              <a id="new-link" target="_blank" href="https://youtu.be/1T_qa-YqoM0">
+              <h2 id="heading3">Python Keylogger</h2>
+              </a>
+                <p id="text">Built in a short 40 lines, this keylogger can be ran as a .exe and hidden
+                  on a computer. It detects keystrokes and ,when escaped, logs them onto a text file.
+                  Also includes an autorun bat file that allows to run the .exe when it's pluged in from
+                  a flashdrive!</p>
+              </div>
+              <span class="tag is-info is-light">coding.</span>
+            </div>
+          </div>
+        </div>
+        <div class="grid-square">
+          <div class="filterDiv coding">
+            <div class="square">
+              <div id="project-text2" class="small-text-wrapper">
+              <img style="padding: 5px;" src="img/laptop1.png" alt="">
+              <a id="new-link" target="_blank" href="https://shadowteck.github.io/Portfolio/">
+              <h2 id="heading3">Portfolio Website</h2>
+              </a>
+                <p id="text">This is my personal portfolio page I made about a year ago to
+                  show off my projects (which are now displayed here) and employers my skill set!</p>
+              </div>
+              <span class="tag is-info is-light">coding.</span>
+            </div>
+          </div>
+        </div>
+        <div class="grid-square">
+          <div class="filterDiv coding">
+            <div class="square">
+              <div id="project-text2" class="small-text-wrapper">
+              <img src="img/laptop2.png" alt="">
+              <a id="new-link" target="_blank" href="https://shadowteck.github.io/Site-Bookmarker/">
+              <h2 id="heading3">Site Bookmarking Website</h2>
+              </a>
+                <p id="text">You can type a url, save it as a bookmark, and leave the tab without
+                  the worry of deleting it. An easy and manageable place for all your bookmarks!</p>
+              </div>
+              <span class="tag is-info is-light">coding.</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="grid">
+        <div class="grid-square">
+          <div class="filterDiv coding">
+            <div class="square">
+              <div id="project-text2" class="small-text-wrapper">
+              <img src="img/learn-js-logo-transparent.png" alt="">
+              <a id="new-link" target="_blank" href="#">
+              <h2 id="heading3">Learn-js.info</h2>
+              </a>
+                <p id="text">The internets #1 place to learn JavaScript! Browse everything from Blogs,
+                  YouTube videos, Podcasts, Books and PDF's, IDE's, and more related to JavaScript! Built
+                  with HTML, CSS, and of course some JS. (NOT currently being hosted).</p>
+              </div>
+              <span class="tag is-info is-light">coding.</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="tab-content">
+      <div style="margin-bottom: 18%;" class="grid">
+        <div class="grid-square">
+          <div class="filterDiv film">
+            <div class="square">
+              <div id="project-text1" class="small-text-wrapper">
+              <img src="img/rebirth.jpg" alt="">
+              <a id="new-link" target="_blank" href="https://youtu.be/neopfcdW_fg">
+              <h2 id="heading3">Rebirth</h2>
+              </a>
+                <p id="text">Rebirth is a short film that brings you on a short, but meaningful,
+                journey about the meaning of individual life. <br> IN PROGRESS</p>
+              </div>
+              <span class="tag is-danger is-light">film.</span>
+            </div>
+          </div>
+        </div>
+        <div class="grid-square">
+          <div class="filterDiv film">
+            <div class="square">
+              <div id="project-text1" class="small-text-wrapper">
+              <img src="img/projectimg.jpg" alt="">
+              <a id="new-link" target="_blank" href="https://youtu.be/neopfcdW_fg">
+              <h2 id="heading3">Negative Utopia</h2>
+              </a>
+                <p id="text">Short Film about reality and what humans as a race are living in. <br> IN PROGRESS</p>
+              </div>
+              <span class="tag is-danger is-light">film.</span>
+            </div>
+          </div>
+        </div>
+        <div class="grid-square">
+          <div class="filterDiv film">
+            <div class="square">
+              <div id="project-text1" class="small-text-wrapper">
+              <img src="img/edit.jpg" alt="">
+              <a id="new-link" target="_blank" href="https://youtu.be/XJDSEOmu5r0">
+              <h2 id="heading3">"Can't Help Myself" Edit</h2>
+              </a>
+                <p id="text">30 second edit with a montage of picture that I've taken recently inspired by thea
+                music artist Sub Urban</p>
+              </div>
+              <span class="tag is-danger is-light">film.</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="tab-content">
+      <div style="margin-bottom: 18%;" class="grid">
+        <div class="grid-square">
+          <div class="filterDiv other">
+            <div class="square">
+              <div id="project-text3" class="small-text-wrapper">
+              <img src="img/fire.jpg" alt="">
+              <a id="new-link" target="_blank" href="https://imgur.com/a/8FuccF0">
+              <h2 id="heading3">Photography</h2>
+              </a>
+                <p id="text">A few of the best pictures I've taken over the years of birds, sunsets, landscapes and more! Shot all over the west coast included, California, Utah, and Arizona.</p>
+              </div>
+              <span class="tag is-dark">other.</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="tab-content">
+      <div class="grid">
+        <div class="grid-square">
+          <div class="filterDiv coding">
+            <div class="square">
+              <div id="project-text2" class="small-text-wrapper">
+              <img src="img/laptop3.png" alt="">
+              <a id="new-link" target="_blank" href="https://youtu.be/neopfcdW_fg">
+              <h2 id="heading3">Python Keylogger</h2>
+              </a>
+                <p id="text">Built in a short 40 lines, this keylogger can be ran as a .exe and hidden
+                  on a computer. It detects keystrokes and ,when escaped, logs them onto a text file.
+                  Also includes an autorun bat file that allows to run the .exe when it's pluged in from
+                  a flashdrive!</p>
+              </div>
+              <span class="tag is-info is-light">coding.</span>
+            </div>
+          </div>
+        </div>
+        <div class="grid-square">
+          <div class="filterDiv coding">
+            <div class="square">
+              <div id="project-text2" class="small-text-wrapper">
+              <img style="padding: 5px;" src="img/laptop1.png" alt="">
+              <a id="new-link" target="_blank" href="https://shadowteck.github.io/Portfolio/">
+              <h2 id="heading3">Portfolio Website</h2>
+              </a>
+                <p id="text">This is my personal portfolio page I made about a year ago to
+                  show off my projects (which are now displayed here) and employers my skill set!</p>
+              </div>
+              <span class="tag is-info is-light">coding.</span>
+            </div>
+          </div>
+        </div>
+        <div class="grid-square">
+          <div class="filterDiv coding">
+            <div class="square">
+              <div id="project-text2" class="small-text-wrapper">
+              <img src="img/laptop2.png" alt="">
+              <a id="new-link" target="_blank" href="https://shadowteck.github.io/Site-Bookmarker/">
+              <h2 id="heading3">Site Bookmarking Website</h2>
+              </a>
+                <p id="text">You can type a url, save it as a bookmark, and leave the tab without
+                  the worry of deleting it. An easy and manageable place for all your bookmarks!</p>
+              </div>
+              <span class="tag is-info is-light">coding.</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="grid">
+        <div class="grid-square">
+          <div class="filterDiv coding">
+            <div class="square">
+              <div id="project-text2" class="small-text-wrapper">
+              <img src="img/learn-js-logo-transparent.png" alt="">
+              <a id="new-link" target="_blank" href="https://shadowteck.github.io/Site-Bookmarker/">
+              <h2 id="heading3">Learn-js.info</h2>
+              </a>
+                <p id="text">The internets #1 place to learn JavaScript! Browse everything from Blogs,
+                  YouTube videos, Podcasts, Books and PDF's, IDE's, and more related to JavaScript! Built
+                  with HTML, CSS, and of course some JS.</p>
+              </div>
+              <span class="tag is-info is-light">coding.</span>
+            </div>
+          </div>
+        </div>
+        <div class="grid-square">
+          <div class="filterDiv film">
+            <div class="square">
+              <div id="project-text1" class="small-text-wrapper">
+              <img src="img/rebirth.jpg" alt="">
+              <a id="new-link" target="_blank" href="https://youtu.be/neopfcdW_fg">
+              <h2 id="heading3">Rebirth</h2>
+              </a>
+                <p id="text">Rebirth is a short film that brings you on a short, but meaningful,
+                journey about the meaning of individual life. <br> IN PROGRESS</p>
+              </div>
+              <span class="tag is-danger is-light">film.</span>
+            </div>
+          </div>
+        </div>
+        <div class="grid-square">
+          <div class="filterDiv film">
+            <div class="square">
+              <div id="project-text1" class="small-text-wrapper">
+              <img src="img/projectimg.jpg" alt="">
+              <a id="new-link" target="_blank" href="https://youtu.be/neopfcdW_fg">
+              <h2 id="heading3">Negative Utopia</h2>
+              </a>
+                <p id="text">Short Film about reality and what humans as a race are living in. <br> IN PROGRESS</p>
+              </div>
+              <span class="tag is-danger is-light">film.</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="grid">
+        <div class="grid-square">
+          <div class="filterDiv film">
+            <div class="square">
+              <div id="project-text1" class="small-text-wrapper">
+              <img src="img/edit.jpg" alt="">
+              <a id="new-link" target="_blank" href="https://youtu.be/XJDSEOmu5r0">
+              <h2 id="heading3">"Can't Help Myself" Edit</h2>
+              </a>
+                <p id="text">30 second edit with a montage of picture that I've taken recently inspired by thea
+                music artist Sub Urban</p>
+              </div>
+              <span class="tag is-danger is-light">film.</span>
+            </div>
+          </div>
+        </div>
+        <div class="grid-square">
+          <div class="filterDiv other">
+            <div class="square">
+              <div id="project-text3" class="small-text-wrapper">
+              <img src="img/fire.jpg" alt="">
+              <a id="new-link" target="_blank" href="https://imgur.com/a/8FuccF0">
+              <h2 id="heading3">Photography</h2>
+              </a>
+                <p id="text">A few of the best pictures I've taken over the years of birds, sunsets, landscapes and more! Shot all over the west coast included, California, Utah, and Arizona.</p>
+              </div>
+              <span class="tag is-dark">other.</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+</div>
+<script type="text/javascript">
+  let tabsWithContent = (function () {
+  let tabs = document.querySelectorAll('.tabs li');
+  let tabsContent = document.querySelectorAll('.tab-content');
+
+  let deactvateAllTabs = function () {
+    tabs.forEach(function (tab) {
+      tab.classList.remove('is-active');
+    });
+  };
+
+  let hideTabsContent = function () {
+    tabsContent.forEach(function (tabContent) {
+      tabContent.classList.remove('is-active');
+    });
+  };
+
+  let activateTabsContent = function (tab) {
+    tabsContent[getIndex(tab)].classList.add('is-active');
+  };
+
+  let getIndex = function (el) {
+    return [...el.parentElement.children].indexOf(el);
+  };
+
+  tabs.forEach(function (tab) {
+    tab.addEventListener('click', function () {
+      deactvateAllTabs();
+      hideTabsContent();
+      tab.classList.add('is-active');
+      activateTabsContent(tab);
+    });
+  })
+
+  tabs[0].click();
+})();
+</script>
+  <script>
+
+  filterSelection("all")
+  function filterSelection(c) {
+    var x, i;
+    x = document.getElementsByClassName("filterDiv");
+    if (c == "all") c = "";
+    for (i = 0; i < x.length; i++) {
+      w3RemoveClass(x[i], "show");
+      if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "show");
+    }
+  }
+
+  function w3AddClass(element, name) {
+    var i, arr1, arr2;
+    arr1 = element.className.split(" ");
+    arr2 = name.split(" ");
+    for (i = 0; i < arr2.length; i++) {
+      if (arr1.indexOf(arr2[i]) == -1) {element.className += " " + arr2[i];}
+    }
+  }
+
+  function w3RemoveClass(element, name) {
+    var i, arr1, arr2;
+    arr1 = element.className.split(" ");
+    arr2 = name.split(" ");
+    for (i = 0; i < arr2.length; i++) {
+      while (arr1.indexOf(arr2[i]) > -1) {
+        arr1.splice(arr1.indexOf(arr2[i]), 1);
+      }
+    }
+    element.className = arr1.join(" ");
+  }
+  </script>
+</body>
+<footer class="footer1">
+  <nav style="background-color: #b8d3ff;" class="navbar">
+      <div class="container">
+        <div class="navbar-brand">
+          <a class="navbar-item" href="index.html" style="font-weight:bold;">
+           <img src="img/shadowteck.png" alt="">
+          </a>
+          <span class="navbar-burger burger" data-target="navMenu">
+            <span></span>
+            <span></span>
+            <span></span>
+          </span>
+        </div>
+        <p>©2020 Shadow Teck</p>
+        <div id="navMenu" class="navbar-menu">
+          <div class="navbar-end">
+            <a href="media.html" class="navbar-item">media.</a>
+            <a href="projects.html" class="navbar-item is-active">projects.</a>
+            <a href="services.html" class="navbar-item">services.</a>
+            <a href="products.html" class="navbar-item">products.</a>
+            <a href="about.html" class="navbar-item">about.</a>
+            <div class="social-media">
+                <a target="_blank" href="https://www.youtube.com/c/ShadowTeck"><img class="" style="width: 32px; height: 32px;" src="img/youtube.png" alt="YouTube"></a>
+                <a target="_blank" href="https://www.instagram.com/shadow_teck/"><img class="" style="width: 32px; height: 32px;" src="img/instagram.png" alt="Instagram"></a>
+                <a target="_blank" href="https://github.com/ShadowTeck"><img class="" style="width: 32px; height: 32px;" src="img/github.png" alt="Github"></a>
+                <a target="_blank" href="https://twitter.com/Shadow_Teck"><img class="" style="width: 32px; height: 32px;" src="img/twitter.png" alt="Twitter"></a>
+                <a target="_blank" href="https://discord.gg/jAusnkc"><img class="" style="width: 32px; height: 32px;" src="img/discord.png" alt="Discord"></a>
+                <a target="_blank" href="https://soundcloud.com/shadow-teck"><img class="" style="width: 32px; height: 32px;" src="img/soundcloud.png" alt="Soundcloud"></a>
+                <a target="_blank" href="https://www.reddit.com/user/Shadow_Teck"><img class="" style="width: 32px; height: 32px;" src="img/reddit.png" alt="Reddit"></a>
+                <a target="_blank" href="https://www.facebook.com/thatonecoder/?modal=admin_todo_tour"><img class="" style="width: 32px; height: 32px;" src="img/facebook.png" alt="Facebook"></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+</footer>
+</html>

@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <title id="shadowteck">Shadow Teck</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.9.0/css/bulma.min.css">
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="icon.png">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+  <nav id="navbar" class="navbar is-transparent">
+    <div class="container">
+      <div class="navbar-brand">
+        <a class="navbar-item" href="index.html" style="font-weight:bold;">
+          <img src="img/shadowteck.png" alt="">
+        </a>
+        <span class="navbar-burger burger" data-target="navMenu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </span>
+      </div>
+      <div id="navMenu" class="navbar-menu is-transparent">
+        <div class="navbar-end">
+          <div class="navbar-item has-dropdown is-hoverable">
+            <a class="navbar-link">
+              Content
+            </a>
+            <div class="navbar-dropdown">
+              <a href="media.html" class="navbar-item">
+                media
+              </a>
+              <a href="projects.html" class="navbar-item">
+                projects </a>
+            </div>
+          </div>
+          <div class="navbar-item has-dropdown is-hoverable">
+            <a class="navbar-link">
+              Shop
+            </a>
+            <div class="navbar-dropdown">
+              <a href="services.html" class="navbar-item">
+                services
+              </a>
+              <a href="products.html" class="navbar-item">
+                products </a>
+            </div>
+          </div>
+        </div>
+        <a href="about.html" class="navbar-item">About</a>
+      </div>
+    </div>
+  </nav>
+  <script type="text/javascript">
+    (function() {
+      var burger = document.querySelector('.burger');
+      var nav = document.querySelector('#' + burger.dataset.target);
+      burger.addEventListener('click', function() {
+        burger.classList.toggle('is-active');
+        nav.classList.toggle('is-active');
+      });
+    })();
+  </script>
+  <section class="hero is-success is-fullheight">
+    <div class="hero-body has-text-centered">
+      <div class="container">
+        <h1 id="heading1" class="title is-size-1-mobile">
+          Shadow Teck
+        </h1>
+        <h2 id="subtitle" class="subtitle is-size-1-mobile">
+          Self-Taught Programmer and Film-Maker inspired by Creativity
+        </h2>
+      </div>
+    </div>
+    <div class="down-arrow">
+      <a href="#recent"><img src="img/down-arrow.png" width="35px;" alt="Down Arrow"></a>
+    </div>
+  </section>
+  <section id="recent" class="hero is-medium is-dark is-bold">
+    <div id="recentfeed" class="hero-body has-text-centered">
+      <div class="container">
+        <h1 id="title" class="title">
+          recent feed.
+        </h1>
+      </div>
+    </div>
+    <div class="boxes">
+      <a id="link" href="media.html">
+        <div class="box-container">
+          <div id="box2" class="box"></div>
+          <h2 id="link2">media.</h2>
+          <p>Offical Media releases from 'Shadow Teck' including YouTube Videos, Podcasts, and Blog posts!</p>
+        </div>
+      </a>
+      <a id="link" href="projects.html">
+        <div class="box-container">
+          <div id="box3" class="box"></div>
+          <h2 id="link2">projects.</h2>
+          <p>View in progress and completed projects that are developed by Shadow Teck including Short Films, Programming Projects, and more! (mainly portfolio projects)</p>
+        </div>
+      </a>
+      <div class="box-container">
+        <a id="link" href="products.html">
+          <div id="box1" class="box"></div>
+          <h2 id="link2">shop.</h2>
+          <p>Shop Exclusive Merch Collections, Products, and <a id="link2" href="services.html">Services</a>!</p>
+      </div>
+      </a>
+    </div>
+  </section>
+  <section class="hero is-medium is-light is-bold has-text-centered">
+    <div class="hero-body">
+      <div id="about" class="container">
+        <h1 class="title">
+          <a style="color: gray;" id="link2" href="about.html">about.</a>
+        </h1>
+        <div class="profile">
+          <figure class="image is-128x128">
+            <img class="is-rounded" src="img/me.jpg">
+          </figure>
+        </div>
+        <p class="bio">Started in 2017, Shadow Teck became a multimedia company selling services and products. "Shadow" (Shadow Teck's Founder & CEO) is a photographer, videographer, web developer, and creative entrepreneur. Started at age 12...</p>
+      </div>
+    </div>
+  </section>
+</body>
+<footer class="footer1">
+  <nav style="background-color: #b8d3ff;" class="navbar">
+    <div class="container">
+      <div class="navbar-brand">
+        <a class="navbar-item" href="index.html" style="font-weight:bold;">
+          <img src="img/shadowteck.png" alt="">
+        </a>
+        <span class="navbar-burger burger" data-target="navMenu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </span>
+      </div>
+      <p>©2020 Shadow Teck</p>
+      <div id="navMenu" class="navbar-menu">
+        <div class="navbar-end">
+          <a href="media.html" class="navbar-item">media.</a>
+          <a href="projects.html" class="navbar-item">projects.</a>
+          <a href="services.html" class="navbar-item">services.</a>
+          <a href="products.html" class="navbar-item">products.</a>
+          <a href="about.html" class="navbar-item">about.</a>
+          <div class="social-media">
+            <a target="_blank" href="https://www.youtube.com/c/ShadowTeck"><img class="" style="width: 32px; height: 32px;" src="img/youtube.png" alt="YouTube"></a>
+            <a target="_blank" href="https://www.instagram.com/shadow_teck/"><img class="" style="width: 32px; height: 32px;" src="img/instagram.png" alt="Instagram"></a>
+            <a target="_blank" href="https://github.com/ShadowTeck"><img class="" style="width: 32px; height: 32px;" src="img/github.png" alt="Github"></a>
+            <a target="_blank" href="https://twitter.com/Shadow_Teck"><img class="" style="width: 32px; height: 32px;" src="img/twitter.png" alt="Twitter"></a>
+            <a target="_blank" href="https://discord.gg/jAusnkc"><img class="" style="width: 32px; height: 32px;" src="img/discord.png" alt="Discord"></a>
+            <a target="_blank" href="https://soundcloud.com/shadow-teck"><img class="" style="width: 32px; height: 32px;" src="img/soundcloud.png" alt="Soundcloud"></a>
+            <a target="_blank" href="https://www.reddit.com/user/Shadow_Teck"><img class="" style="width: 32px; height: 32px;" src="img/reddit.png" alt="Reddit"></a>
+            <a target="_blank" href="https://www.facebook.com/thatonecoder/?modal=admin_todo_tour"><img class="" style="width: 32px; height: 32px;" src="img/facebook.png" alt="Facebook"></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </nav>
+</footer>
+
+</html>
